@@ -1,1 +1,1 @@
-web: ./node_modules/gitbook-cli/bin/gitbook.js serve --port $PORT
+web: node --debug=5858 index.js
