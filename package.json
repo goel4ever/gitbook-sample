@@ -1,0 +1,21 @@
+{
+  "name": "first-book",
+  "version": "1.0.0",
+  "description": "First book",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook-plugin-download-pdf-link": "^2.0.0",
+    "gitbook-plugin-json": "^1.0.1",
+    "gitbook-plugin-downloadpdf": "^1.0.3"
+  },
+  "devDependencies": {
+    "express": "^4.15.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "gitbook build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anshul Goel <dec.anshul@gmail.com> (http://goel4ever.github.io/)",
+  "license": "MIT"
+}

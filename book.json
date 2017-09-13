@@ -1,0 +1,14 @@
+{
+    "plugins": ["download-pdf-link", "json"],
+    "pluginsConfig": {
+      "download-pdf-link": {
+        "base": "https://github.com/zhaoda/webpack-handbook/edit/master/content",
+        "label": "Download PDF",
+        "multilingual": false
+      },
+      "json": {
+        "about": "Outputs entire book in json file each time you build or serve",
+        "output": "dist/json-book.json"
+      }
+    }
+  }
