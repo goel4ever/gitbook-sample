@@ -1,1 +1,1 @@
-web: node --debug=5858 index.js
+web: npm i && node --debug=5858 index.js
